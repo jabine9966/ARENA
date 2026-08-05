@@ -1,0 +1,68 @@
+{
+  "strategy_version": "v0.3",
+  "cycle_hours": 4,
+  "take_profit_mode": "single",
+  "long_short_independent": true,
+  "last_updated_beijing": "2026-08-06 01:34:47+08:00",
+  "review_sample_size": 0,
+  "performance": {
+    "long": {
+      "total_plans": 0,
+      "triggered": 0,
+      "not_triggered": 0,
+      "entered_take_profit": 0,
+      "entered_stop_loss": 0,
+      "entered_expired_profit": 0,
+      "entered_expired_loss": 0,
+      "entered_expired_flat": 0,
+      "ambiguous_same_candle": 0,
+      "not_triggered_missed_profit": 0,
+      "not_triggered_avoided_loss": 0,
+      "not_triggered_no_signal": 0,
+      "not_triggered_mixed_outcome": 0,
+      "no_market_data": 0,
+      "no_market_data_expired": 0,
+      "trigger_rate": "0.0000",
+      "take_profit_rate_on_triggered": "0.0000",
+      "stop_loss_rate_on_triggered": "0.0000",
+      "missed_profit_rate": "0.0000",
+      "expired_profit_rate_on_triggered": "0.0000",
+      "ambiguous_rate": "0.0000"
+    },
+    "short": {
+      "total_plans": 0,
+      "triggered": 0,
+      "not_triggered": 0,
+      "entered_take_profit": 0,
+      "entered_stop_loss": 0,
+      "entered_expired_profit": 0,
+      "entered_expired_loss": 0,
+      "entered_expired_flat": 0,
+      "ambiguous_same_candle": 0,
+      "not_triggered_missed_profit": 0,
+      "not_triggered_avoided_loss": 0,
+      "not_triggered_no_signal": 0,
+      "not_triggered_mixed_outcome": 0,
+      "no_market_data": 0,
+      "no_market_data_expired": 0,
+      "trigger_rate": "0.0000",
+      "take_profit_rate_on_triggered": "0.0000",
+      "stop_loss_rate_on_triggered": "0.0000",
+      "missed_profit_rate": "0.0000",
+      "expired_profit_rate_on_triggered": "0.0000",
+      "ambiguous_rate": "0.0000"
+    }
+  },
+  "adaptive_parameters": {
+    "long_entry_aggressiveness": "1.000",
+    "short_entry_aggressiveness": "1.000",
+    "long_take_profit_factor": "1.000",
+    "short_take_profit_factor": "1.000",
+    "stop_loss_atr_factor": "1.000"
+  },
+  "recent_lessons": [
+    "long 暂无复盘样本，保持默认参数。",
+    "short 暂无复盘样本，保持默认参数。"
+  ],
+  "last_review_id": "no_reviews"
+}

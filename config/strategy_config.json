@@ -1,0 +1,62 @@
+{
+  "symbol": "SOL-USDT",
+  "file_symbol": "SOL",
+  "strategy_version": "v0.3",
+  "timezone": "Asia/Shanghai",
+  "execution_interval_minutes": 30,
+  "cycle_hours": 4,
+  "primary_review_timeframe": "15m",
+  "take_profit_mode": "single",
+  "long_short_independent": true,
+  "price_precision": 2,
+  "indicator_files": {
+    "ma50_deviation": "ma50_deviation_summary.csv",
+    "technical_indicators": "technical_indicators_summary.csv"
+  },
+  "paths": {
+    "latest_trade_plan": "state/latest_trade_plan.json",
+    "active_trade_plans": "state/active_trade_plans.json",
+    "latest_review_batch": "state/latest_review_batch.json",
+    "learning_state": "state/learning_state.json",
+    "trade_plans_log": "logs/trade_plans.jsonl",
+    "trade_reviews_log": "logs/trade_reviews.jsonl",
+    "learning_updates_log": "logs/learning_updates.jsonl",
+    "latest_report": "reports/SOL_trade_analysis_report.md",
+    "legacy_root_report": "SOL_trade_analysis_report.md",
+    "report_history_dir": "reports/history"
+  },
+  "supertrend": {
+    "period": 12,
+    "multiplier": "3"
+  },
+  "review_rules": {
+    "review_timeframe": "15m",
+    "same_candle_take_profit_stop_loss": "ambiguous_same_candle",
+    "expired_flat_threshold_pct": "0.02",
+    "record_not_triggered": true
+  },
+  "plan_rules": {
+    "long_entry_buffer": "0.02",
+    "short_entry_buffer": "0.00",
+    "long_stop_buffer": "0.02",
+    "short_stop_buffer": "0.01",
+    "minimum_reward_risk": "0.80"
+  },
+  "adaptive_defaults": {
+    "long_entry_aggressiveness": "1.0",
+    "short_entry_aggressiveness": "1.0",
+    "long_take_profit_factor": "1.0",
+    "short_take_profit_factor": "1.0",
+    "stop_loss_atr_factor": "1.0"
+  },
+  "learning_rules": {
+    "recent_window": 30,
+    "missed_profit_rate_high": "0.25",
+    "stop_loss_rate_high": "0.30",
+    "expired_profit_rate_high": "0.20",
+    "take_profit_rate_good": "0.55",
+    "adjustment_step": "0.05",
+    "min_factor": "0.75",
+    "max_factor": "1.25"
+  }
+}

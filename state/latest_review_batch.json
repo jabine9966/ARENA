@@ -1,0 +1,82 @@
+{
+  "status": "reviewed_active_plans",
+  "review_time_beijing": "2026-08-06 01:15:00+08:00",
+  "review_timeframe": "15m",
+  "active_plan_count_before": 1,
+  "active_plan_count_after": 1,
+  "terminal_count": 0,
+  "active_count": 2,
+  "written_count": 0,
+  "terminal_results": [],
+  "active_results": [
+    {
+      "review_id": "review_SOL_202608060115_v0.3_LONG_202608060515",
+      "plan_id": "SOL_202608060115_v0.3",
+      "plan_item_id": "SOL_202608060115_v0.3_LONG",
+      "symbol": "SOL-USDT",
+      "side": "long",
+      "strategy_version": "v0.3",
+      "created_at_beijing": "2026-08-06 01:15:00+08:00",
+      "valid_until_beijing": "2026-08-06 05:15:00+08:00",
+      "review_time_beijing": "2026-08-06 01:15:00+08:00",
+      "entry_zone": [
+        "74.13",
+        "74.22"
+      ],
+      "entry_price": "74.15",
+      "take_profit": "74.99",
+      "stop_loss": "73.34",
+      "logic_tags": [
+        "15m_supertrend_long",
+        "30m_supertrend_long",
+        "1h_supertrend_long",
+        "15m_close_above_ma50",
+        "pivot_support_entry",
+        "ma50_long_avg_deviation_take_profit",
+        "single_take_profit"
+      ],
+      "window_candle_count": 0,
+      "window_start": "",
+      "window_end": "",
+      "was_triggered": false,
+      "result": "active_waiting_market_data",
+      "is_terminal": false,
+      "notes": "交易指令已生成，但尚无后续K线可用于判断是否成交。"
+    },
+    {
+      "review_id": "review_SOL_202608060115_v0.3_SHORT_202608060515",
+      "plan_id": "SOL_202608060115_v0.3",
+      "plan_item_id": "SOL_202608060115_v0.3_SHORT",
+      "symbol": "SOL-USDT",
+      "side": "short",
+      "strategy_version": "v0.3",
+      "created_at_beijing": "2026-08-06 01:15:00+08:00",
+      "valid_until_beijing": "2026-08-06 05:15:00+08:00",
+      "review_time_beijing": "2026-08-06 01:15:00+08:00",
+      "entry_zone": [
+        "74.50",
+        "74.55"
+      ],
+      "entry_price": "74.50",
+      "take_profit": "74.17",
+      "stop_loss": "74.72",
+      "logic_tags": [
+        "15m_supertrend_long",
+        "30m_supertrend_long",
+        "1h_supertrend_long",
+        "15m_close_above_ma50",
+        "pivot_resistance_entry",
+        "pivot_support_take_profit",
+        "single_take_profit"
+      ],
+      "window_candle_count": 0,
+      "window_start": "",
+      "window_end": "",
+      "was_triggered": false,
+      "result": "active_waiting_market_data",
+      "is_terminal": false,
+      "notes": "交易指令已生成，但尚无后续K线可用于判断是否成交。"
+    }
+  ],
+  "results": []
+}
