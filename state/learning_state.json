@@ -3,17 +3,17 @@
   "cycle_hours": 4,
   "take_profit_mode": "single",
   "long_short_independent": true,
-  "last_updated_beijing": "2026-08-06 07:29:55+08:00",
-  "review_sample_size": 5,
+  "last_updated_beijing": "2026-08-06 08:51:11+08:00",
+  "review_sample_size": 8,
   "performance": {
     "long": {
-      "total_plans": 2,
-      "triggered": 2,
+      "total_plans": 4,
+      "triggered": 4,
       "not_triggered": 0,
       "entered_take_profit": 0,
       "entered_stop_loss": 0,
       "entered_expired_profit": 2,
-      "entered_expired_loss": 0,
+      "entered_expired_loss": 2,
       "entered_expired_flat": 0,
       "ambiguous_same_candle": 0,
       "not_triggered_missed_profit": 0,
@@ -26,29 +26,29 @@
       "take_profit_rate_on_triggered": "0.0000",
       "stop_loss_rate_on_triggered": "0.0000",
       "missed_profit_rate": "0.0000",
-      "expired_profit_rate_on_triggered": "1.0000",
+      "expired_profit_rate_on_triggered": "0.5000",
       "ambiguous_rate": "0.0000"
     },
     "short": {
-      "total_plans": 3,
+      "total_plans": 4,
       "triggered": 3,
-      "not_triggered": 0,
+      "not_triggered": 1,
       "entered_take_profit": 2,
       "entered_stop_loss": 1,
       "entered_expired_profit": 0,
       "entered_expired_loss": 0,
       "entered_expired_flat": 0,
       "ambiguous_same_candle": 0,
-      "not_triggered_missed_profit": 0,
+      "not_triggered_missed_profit": 1,
       "not_triggered_avoided_loss": 0,
       "not_triggered_no_signal": 0,
       "not_triggered_mixed_outcome": 0,
       "no_market_data": 0,
       "no_market_data_expired": 0,
-      "trigger_rate": "1.0000",
+      "trigger_rate": "0.7500",
       "take_profit_rate_on_triggered": "0.6667",
       "stop_loss_rate_on_triggered": "0.3333",
-      "missed_profit_rate": "0.0000",
+      "missed_profit_rate": "0.2500",
       "expired_profit_rate_on_triggered": "0.0000",
       "ambiguous_rate": "0.0000"
     }
@@ -61,9 +61,9 @@
     "stop_loss_atr_factor": "1.000"
   },
   "recent_lessons": [
-    "最近 2 条已成交 long 计划中周期结束浮盈但未止盈比例偏高，说明止盈可能偏远，下一轮适度收近止盈。",
+    "最近 4 条已成交 long 计划中周期结束浮盈但未止盈比例偏高，说明止盈可能偏远，下一轮适度收近止盈。",
     "最近 3 条已成交 short 计划中 stop_loss 比例为 33.33%，说明入场或方向过滤偏激进，下一轮适度降低入场积极性。",
     "最近 3 条已成交 short 计划中止盈率较好，可小幅放宽止盈目标以观察收益弹性。"
   ],
-  "last_review_id": "review_SOL_202608060330_v0.3_SHORT_202608060730"
+  "last_review_id": "review_SOL_202608060445_v0.3_SHORT_202608060845"
 }
