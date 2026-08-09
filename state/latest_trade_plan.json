@@ -1,10 +1,10 @@
 {
-  "plan_id": "SOL_202608100030_v0.3",
+  "plan_id": "SOL_202608100130_v0.3",
   "symbol": "SOL-USDT",
   "file_symbol": "SOL",
   "strategy_version": "v0.3",
-  "created_at_beijing": "2026-08-10 00:30:00+08:00",
-  "valid_until_beijing": "2026-08-10 04:30:00+08:00",
+  "created_at_beijing": "2026-08-10 01:30:00+08:00",
+  "valid_until_beijing": "2026-08-10 05:30:00+08:00",
   "execution_interval_minutes": 30,
   "cycle_hours": 4,
   "take_profit_mode": "single",
@@ -13,15 +13,15 @@
   "reviewed": false,
   "market_bias": "多周期共振偏多，优先寻找回踩做多机会，空头仅作为压力区短线计划。",
   "data_snapshot": {
-    "15m_file": "SOL_15m_202607260030_202608100015.csv",
-    "30m_file": "SOL_30m_202607110030_202608100000.csv",
-    "1h_file": "SOL_1h_202606110000_202608092300.csv",
-    "15m_last_start": "2026-08-10 00:15:00+08:00",
-    "15m_last_close": "2026-08-10 00:30:00+08:00",
-    "30m_last_start": "2026-08-10 00:00:00+08:00",
-    "30m_last_close": "2026-08-10 00:30:00+08:00",
-    "1h_last_start": "2026-08-09 23:00:00+08:00",
-    "1h_last_close": "2026-08-10 00:00:00+08:00"
+    "15m_file": "SOL_15m_202607260130_202608100115.csv",
+    "30m_file": "SOL_30m_202607110130_202608100100.csv",
+    "1h_file": "SOL_1h_202606110100_202608100000.csv",
+    "15m_last_start": "2026-08-10 01:15:00+08:00",
+    "15m_last_close": "2026-08-10 01:30:00+08:00",
+    "30m_last_start": "2026-08-10 01:00:00+08:00",
+    "30m_last_close": "2026-08-10 01:30:00+08:00",
+    "1h_last_start": "2026-08-10 00:00:00+08:00",
+    "1h_last_close": "2026-08-10 01:00:00+08:00"
   },
   "adaptive_parameters_used": {
     "long_entry_aggressiveness": "1.000",
@@ -32,15 +32,15 @@
   },
   "plans": [
     {
-      "plan_item_id": "SOL_202608100030_v0.3_LONG",
+      "plan_item_id": "SOL_202608100130_v0.3_LONG",
       "side": "long",
       "entry_zone": [
-        "76.93",
-        "77.24"
+        "77.21",
+        "77.34"
       ],
-      "entry_price": "76.95",
-      "take_profit": "78.97",
-      "stop_loss": "74.42",
+      "entry_price": "77.23",
+      "take_profit": "79.45",
+      "stop_loss": "74.45",
       "status": "pending",
       "logic_tags": [
         "15m_supertrend_long",
@@ -51,20 +51,20 @@
         "ma50_long_avg_deviation_take_profit",
         "single_take_profit"
       ],
-      "risk_reward": "0.798",
+      "risk_reward": "0.799",
       "take_profit_basis": "risk_reward_minimum_target",
       "rationale": "30m/1H 结构仍偏多，等待价格回踩 15m/30m S1 与 1H PP 共振支撑；止盈优先使用 15m MA50 多头平均偏离值，若盈亏比不足则顺延至上方关键压力位。"
     },
     {
-      "plan_item_id": "SOL_202608100030_v0.3_SHORT",
+      "plan_item_id": "SOL_202608100130_v0.3_SHORT",
       "side": "short",
       "entry_zone": [
-        "77.45",
-        "77.75"
+        "77.39",
+        "77.58"
       ],
-      "entry_price": "77.46",
-      "take_profit": "77.01",
-      "stop_loss": "77.92",
+      "entry_price": "77.39",
+      "take_profit": "76.85",
+      "stop_loss": "77.84",
       "status": "pending",
       "logic_tags": [
         "15m_supertrend_long",
@@ -75,8 +75,8 @@
         "pivot_support_take_profit",
         "single_take_profit"
       ],
-      "risk_reward": "0.978",
-      "take_profit_basis": "base_target",
+      "risk_reward": "1.200",
+      "take_profit_basis": "risk_reward_adjusted_support",
       "rationale": "若价格反弹至 15m/30m R2 与 1H R1 压力区失败，则执行独立空头计划；当多周期偏多时，空头仅作为压力区短线回落计划。止盈优先取最近共振支撑，若盈亏比不足则顺延至下方关键支撑位。"
     }
   ]
