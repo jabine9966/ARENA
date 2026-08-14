@@ -3,16 +3,16 @@
   "cycle_hours": 4,
   "take_profit_mode": "single",
   "long_short_independent": true,
-  "last_updated_beijing": "2026-08-14 12:09:15+08:00",
-  "review_sample_size": 341,
+  "last_updated_beijing": "2026-08-14 13:56:08+08:00",
+  "review_sample_size": 342,
   "performance": {
     "long": {
-      "total_plans": 170,
-      "triggered": 119,
+      "total_plans": 171,
+      "triggered": 120,
       "not_triggered": 51,
       "entered_take_profit": 19,
       "entered_stop_loss": 31,
-      "entered_expired_profit": 37,
+      "entered_expired_profit": 38,
       "entered_expired_loss": 30,
       "entered_expired_flat": 2,
       "ambiguous_same_candle": 0,
@@ -22,11 +22,11 @@
       "not_triggered_mixed_outcome": 0,
       "no_market_data": 0,
       "no_market_data_expired": 0,
-      "trigger_rate": "0.7000",
-      "take_profit_rate_on_triggered": "0.1597",
-      "stop_loss_rate_on_triggered": "0.2605",
-      "missed_profit_rate": "0.1235",
-      "expired_profit_rate_on_triggered": "0.3109",
+      "trigger_rate": "0.7018",
+      "take_profit_rate_on_triggered": "0.1583",
+      "stop_loss_rate_on_triggered": "0.2583",
+      "missed_profit_rate": "0.1228",
+      "expired_profit_rate_on_triggered": "0.3167",
       "ambiguous_rate": "0.0000"
     },
     "short": {
@@ -56,14 +56,15 @@
   "adaptive_parameters": {
     "long_entry_aggressiveness": "0.950",
     "short_entry_aggressiveness": "1.000",
-    "long_take_profit_factor": "1.000",
+    "long_take_profit_factor": "0.950",
     "short_take_profit_factor": "0.950",
     "stop_loss_atr_factor": "1.050"
   },
   "recent_lessons": [
-    "最近 22 条已成交 long 计划中 stop_loss 比例为 63.64%，说明入场或方向过滤偏激进，下一轮适度降低入场积极性。",
+    "最近 22 条已成交 long 计划中 stop_loss 比例为 59.09%，说明入场或方向过滤偏激进，下一轮适度降低入场积极性。",
+    "最近 22 条已成交 long 计划中周期结束浮盈但未止盈比例偏高，说明止盈可能偏远，下一轮适度收近止盈。",
     "最近 25 条已成交 short 计划中周期结束浮盈但未止盈比例偏高，说明止盈可能偏远，下一轮适度收近止盈。",
     "整体止损触发率偏高，下一轮小幅放宽结构止损缓冲。"
   ],
-  "last_review_id": "review_SOL_202608140945_v0.3_SHORT_202608141345"
+  "last_review_id": "review_SOL_202608140945_v0.3_LONG_202608141345"
 }
