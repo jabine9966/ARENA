@@ -3,16 +3,16 @@
   "cycle_hours": 4,
   "take_profit_mode": "single",
   "long_short_independent": true,
-  "last_updated_beijing": "2026-08-15 09:14:38+08:00",
-  "review_sample_size": 377,
+  "last_updated_beijing": "2026-08-15 10:32:57+08:00",
+  "review_sample_size": 384,
   "performance": {
     "long": {
-      "total_plans": 187,
-      "triggered": 134,
+      "total_plans": 190,
+      "triggered": 137,
       "not_triggered": 53,
       "entered_take_profit": 19,
       "entered_stop_loss": 38,
-      "entered_expired_profit": 41,
+      "entered_expired_profit": 44,
       "entered_expired_loss": 33,
       "entered_expired_flat": 3,
       "ambiguous_same_candle": 0,
@@ -22,19 +22,19 @@
       "not_triggered_mixed_outcome": 0,
       "no_market_data": 0,
       "no_market_data_expired": 0,
-      "trigger_rate": "0.7166",
-      "take_profit_rate_on_triggered": "0.1418",
-      "stop_loss_rate_on_triggered": "0.2836",
-      "missed_profit_rate": "0.1123",
-      "expired_profit_rate_on_triggered": "0.3060",
+      "trigger_rate": "0.7211",
+      "take_profit_rate_on_triggered": "0.1387",
+      "stop_loss_rate_on_triggered": "0.2774",
+      "missed_profit_rate": "0.1105",
+      "expired_profit_rate_on_triggered": "0.3212",
       "ambiguous_rate": "0.0000"
     },
     "short": {
-      "total_plans": 190,
-      "triggered": 148,
+      "total_plans": 194,
+      "triggered": 152,
       "not_triggered": 42,
       "entered_take_profit": 56,
-      "entered_stop_loss": 50,
+      "entered_stop_loss": 54,
       "entered_expired_profit": 19,
       "entered_expired_loss": 18,
       "entered_expired_flat": 5,
@@ -45,24 +45,25 @@
       "not_triggered_mixed_outcome": 0,
       "no_market_data": 0,
       "no_market_data_expired": 0,
-      "trigger_rate": "0.7789",
-      "take_profit_rate_on_triggered": "0.3784",
-      "stop_loss_rate_on_triggered": "0.3378",
-      "missed_profit_rate": "0.1684",
-      "expired_profit_rate_on_triggered": "0.1284",
+      "trigger_rate": "0.7835",
+      "take_profit_rate_on_triggered": "0.3684",
+      "stop_loss_rate_on_triggered": "0.3553",
+      "missed_profit_rate": "0.1649",
+      "expired_profit_rate_on_triggered": "0.1250",
       "ambiguous_rate": "0.0000"
     }
   },
   "adaptive_parameters": {
     "long_entry_aggressiveness": "0.950",
     "short_entry_aggressiveness": "1.000",
-    "long_take_profit_factor": "1.000",
+    "long_take_profit_factor": "0.950",
     "short_take_profit_factor": "1.000",
     "stop_loss_atr_factor": "1.050"
   },
   "recent_lessons": [
-    "最近 23 条已成交 long 计划中 stop_loss 比例为 52.17%，说明入场或方向过滤偏激进，下一轮适度降低入场积极性。",
+    "最近 24 条已成交 long 计划中 stop_loss 比例为 45.83%，说明入场或方向过滤偏激进，下一轮适度降低入场积极性。",
+    "最近 24 条已成交 long 计划中周期结束浮盈但未止盈比例偏高，说明止盈可能偏远，下一轮适度收近止盈。",
     "整体止损触发率偏高，下一轮小幅放宽结构止损缓冲。"
   ],
-  "last_review_id": "review_SOL_202608150430_v0.3_SHORT_202608150830"
+  "last_review_id": "review_SOL_202608150900_v0.3_SHORT_202608151300"
 }
