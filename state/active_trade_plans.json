@@ -84,7 +84,7 @@
     "completed_item_ids": [
       "SOL_202608170415_v0.3_LONG"
     ],
-    "last_tracked_at_beijing": "2026-08-17 06:45:00+08:00",
+    "last_tracked_at_beijing": "2026-08-17 07:15:00+08:00",
     "last_active_results": [
       {
         "review_id": "review_SOL_202608170415_v0.3_SHORT_202608170815",
@@ -95,7 +95,7 @@
         "strategy_version": "v0.3",
         "created_at_beijing": "2026-08-17 04:15:00+08:00",
         "valid_until_beijing": "2026-08-17 08:15:00+08:00",
-        "review_time_beijing": "2026-08-17 06:45:00+08:00",
+        "review_time_beijing": "2026-08-17 07:15:00+08:00",
         "entry_zone": [
           "75.35",
           "75.45"
@@ -112,12 +112,12 @@
           "pivot_support_take_profit",
           "single_take_profit"
         ],
-        "window_candle_count": 10,
+        "window_candle_count": 12,
         "window_start": "2026-08-17 04:15:00+08:00",
-        "window_end": "2026-08-17 06:45:00+08:00",
+        "window_end": "2026-08-17 07:15:00+08:00",
         "window_high": "75.30000000",
         "window_low": "74.02000000",
-        "window_final_close": "74.36000000",
+        "window_final_close": "74.47000000",
         "was_triggered": false,
         "entry_time": "",
         "exit_time": "",
@@ -220,7 +220,7 @@
     "completed_item_ids": [
       "SOL_202608170445_v0.3_LONG"
     ],
-    "last_tracked_at_beijing": "2026-08-17 06:45:00+08:00",
+    "last_tracked_at_beijing": "2026-08-17 07:15:00+08:00",
     "last_active_results": [
       {
         "review_id": "review_SOL_202608170445_v0.3_SHORT_202608170845",
@@ -231,7 +231,7 @@
         "strategy_version": "v0.3",
         "created_at_beijing": "2026-08-17 04:45:00+08:00",
         "valid_until_beijing": "2026-08-17 08:45:00+08:00",
-        "review_time_beijing": "2026-08-17 06:45:00+08:00",
+        "review_time_beijing": "2026-08-17 07:15:00+08:00",
         "entry_zone": [
           "75.35",
           "75.40"
@@ -248,12 +248,12 @@
           "pivot_support_take_profit",
           "single_take_profit"
         ],
-        "window_candle_count": 8,
+        "window_candle_count": 10,
         "window_start": "2026-08-17 04:45:00+08:00",
-        "window_end": "2026-08-17 06:45:00+08:00",
+        "window_end": "2026-08-17 07:15:00+08:00",
         "window_high": "75.16000000",
         "window_low": "74.02000000",
-        "window_final_close": "74.36000000",
+        "window_final_close": "74.47000000",
         "was_triggered": false,
         "entry_time": "",
         "exit_time": "",
@@ -356,7 +356,7 @@
     "completed_item_ids": [
       "SOL_202608170515_v0.3_LONG"
     ],
-    "last_tracked_at_beijing": "2026-08-17 06:45:00+08:00",
+    "last_tracked_at_beijing": "2026-08-17 07:15:00+08:00",
     "last_active_results": [
       {
         "review_id": "review_SOL_202608170515_v0.3_SHORT_202608170915",
@@ -367,7 +367,7 @@
         "strategy_version": "v0.3",
         "created_at_beijing": "2026-08-17 05:15:00+08:00",
         "valid_until_beijing": "2026-08-17 09:15:00+08:00",
-        "review_time_beijing": "2026-08-17 06:45:00+08:00",
+        "review_time_beijing": "2026-08-17 07:15:00+08:00",
         "entry_zone": [
           "75.21",
           "75.41"
@@ -384,12 +384,12 @@
           "pivot_support_take_profit",
           "single_take_profit"
         ],
-        "window_candle_count": 6,
+        "window_candle_count": 8,
         "window_start": "2026-08-17 05:15:00+08:00",
-        "window_end": "2026-08-17 06:45:00+08:00",
+        "window_end": "2026-08-17 07:15:00+08:00",
         "window_high": "75.09000000",
         "window_low": "74.02000000",
-        "window_final_close": "74.36000000",
+        "window_final_close": "74.47000000",
         "was_triggered": false,
         "entry_time": "",
         "exit_time": "",
@@ -492,7 +492,7 @@
     "completed_item_ids": [
       "SOL_202608170530_v0.3_LONG"
     ],
-    "last_tracked_at_beijing": "2026-08-17 06:45:00+08:00",
+    "last_tracked_at_beijing": "2026-08-17 07:15:00+08:00",
     "last_active_results": [
       {
         "review_id": "review_SOL_202608170530_v0.3_SHORT_202608170930",
@@ -503,7 +503,7 @@
         "strategy_version": "v0.3",
         "created_at_beijing": "2026-08-17 05:30:00+08:00",
         "valid_until_beijing": "2026-08-17 09:30:00+08:00",
-        "review_time_beijing": "2026-08-17 06:45:00+08:00",
+        "review_time_beijing": "2026-08-17 07:15:00+08:00",
         "entry_zone": [
           "75.15",
           "75.26"
@@ -520,12 +520,12 @@
           "pivot_support_take_profit",
           "single_take_profit"
         ],
-        "window_candle_count": 5,
+        "window_candle_count": 7,
         "window_start": "2026-08-17 05:30:00+08:00",
-        "window_end": "2026-08-17 06:45:00+08:00",
+        "window_end": "2026-08-17 07:15:00+08:00",
         "window_high": "75.03000000",
         "window_low": "74.02000000",
-        "window_final_close": "74.36000000",
+        "window_final_close": "74.47000000",
         "was_triggered": false,
         "entry_time": "",
         "exit_time": "",
@@ -626,7 +626,7 @@
       }
     ],
     "completed_item_ids": [],
-    "last_tracked_at_beijing": "2026-08-17 06:45:00+08:00",
+    "last_tracked_at_beijing": "2026-08-17 07:15:00+08:00",
     "last_active_results": [
       {
         "review_id": "review_SOL_202608170615_v0.3_LONG_202608171015",
@@ -637,7 +637,7 @@
         "strategy_version": "v0.3",
         "created_at_beijing": "2026-08-17 06:15:00+08:00",
         "valid_until_beijing": "2026-08-17 10:15:00+08:00",
-        "review_time_beijing": "2026-08-17 06:45:00+08:00",
+        "review_time_beijing": "2026-08-17 07:15:00+08:00",
         "entry_zone": [
           "73.89",
           "74.48"
@@ -654,12 +654,12 @@
           "ma50_long_avg_deviation_take_profit",
           "single_take_profit"
         ],
-        "window_candle_count": 2,
+        "window_candle_count": 4,
         "window_start": "2026-08-17 06:15:00+08:00",
-        "window_end": "2026-08-17 06:45:00+08:00",
-        "window_high": "74.50000000",
+        "window_end": "2026-08-17 07:15:00+08:00",
+        "window_high": "74.61000000",
         "window_low": "74.25000000",
-        "window_final_close": "74.36000000",
+        "window_final_close": "74.47000000",
         "was_triggered": false,
         "entry_time": "",
         "exit_time": "",
@@ -671,7 +671,7 @@
         "nearest_price_to_entry": "74.25000000",
         "distance_to_entry": "0.35000000",
         "distance_to_entry_pct": "+0.474%",
-        "max_favorable_price": "74.50000000",
+        "max_favorable_price": "74.61000000",
         "max_adverse_price": "74.25000000",
         "notes": "交易指令仍在4小时有效期内，当前尚未成交，继续挂单跟踪。"
       },
@@ -684,7 +684,7 @@
         "strategy_version": "v0.3",
         "created_at_beijing": "2026-08-17 06:15:00+08:00",
         "valid_until_beijing": "2026-08-17 10:15:00+08:00",
-        "review_time_beijing": "2026-08-17 06:45:00+08:00",
+        "review_time_beijing": "2026-08-17 07:15:00+08:00",
         "entry_zone": [
           "74.74",
           "75.47"
@@ -701,12 +701,12 @@
           "pivot_support_take_profit",
           "single_take_profit"
         ],
-        "window_candle_count": 2,
+        "window_candle_count": 4,
         "window_start": "2026-08-17 06:15:00+08:00",
-        "window_end": "2026-08-17 06:45:00+08:00",
-        "window_high": "74.50000000",
+        "window_end": "2026-08-17 07:15:00+08:00",
+        "window_high": "74.61000000",
         "window_low": "74.25000000",
-        "window_final_close": "74.36000000",
+        "window_final_close": "74.47000000",
         "was_triggered": false,
         "entry_time": "",
         "exit_time": "",
@@ -715,11 +715,11 @@
         "is_terminal": false,
         "pnl_pct": "",
         "r_multiple": "",
-        "nearest_price_to_entry": "74.50000000",
-        "distance_to_entry": "0.22000000",
-        "distance_to_entry_pct": "+0.294%",
+        "nearest_price_to_entry": "74.61000000",
+        "distance_to_entry": "0.11000000",
+        "distance_to_entry_pct": "+0.147%",
         "max_favorable_price": "74.25000000",
-        "max_adverse_price": "74.50000000",
+        "max_adverse_price": "74.61000000",
         "notes": "交易指令仍在4小时有效期内，当前尚未成交，继续挂单跟踪。"
       }
     ]
@@ -803,6 +803,184 @@
         ],
         "risk_reward": "1.067",
         "take_profit_basis": "risk_reward_adjusted_support",
+        "rationale": "若价格反弹至 15m/30m R2 与 1H R1 压力区失败，则执行独立空头计划；当多周期偏多时，空头仅作为压力区短线回落计划。止盈优先取最近共振支撑，若盈亏比不足则顺延至下方关键支撑位。"
+      }
+    ],
+    "completed_item_ids": [],
+    "last_tracked_at_beijing": "2026-08-17 07:15:00+08:00",
+    "last_active_results": [
+      {
+        "review_id": "review_SOL_202608170645_v0.3_LONG_202608171045",
+        "plan_id": "SOL_202608170645_v0.3",
+        "plan_item_id": "SOL_202608170645_v0.3_LONG",
+        "symbol": "SOL-USDT",
+        "side": "long",
+        "strategy_version": "v0.3",
+        "created_at_beijing": "2026-08-17 06:45:00+08:00",
+        "valid_until_beijing": "2026-08-17 10:45:00+08:00",
+        "review_time_beijing": "2026-08-17 07:15:00+08:00",
+        "entry_zone": [
+          "74.20",
+          "74.48"
+        ],
+        "entry_price": "74.21",
+        "take_profit": "75.58",
+        "stop_loss": "73.83",
+        "logic_tags": [
+          "15m_supertrend_short",
+          "30m_supertrend_short",
+          "1h_supertrend_short",
+          "15m_close_below_ma50",
+          "pivot_support_entry",
+          "ma50_long_avg_deviation_take_profit",
+          "single_take_profit"
+        ],
+        "window_candle_count": 2,
+        "window_start": "2026-08-17 06:45:00+08:00",
+        "window_end": "2026-08-17 07:15:00+08:00",
+        "window_high": "74.61000000",
+        "window_low": "74.34000000",
+        "window_final_close": "74.47000000",
+        "was_triggered": false,
+        "entry_time": "",
+        "exit_time": "",
+        "exit_price": "",
+        "result": "active_pending_entry",
+        "is_terminal": false,
+        "pnl_pct": "",
+        "r_multiple": "",
+        "nearest_price_to_entry": "74.34000000",
+        "distance_to_entry": "0.13000000",
+        "distance_to_entry_pct": "+0.175%",
+        "max_favorable_price": "74.61000000",
+        "max_adverse_price": "74.34000000",
+        "notes": "交易指令仍在4小时有效期内，当前尚未成交，继续挂单跟踪。"
+      },
+      {
+        "review_id": "review_SOL_202608170645_v0.3_SHORT_202608171045",
+        "plan_id": "SOL_202608170645_v0.3",
+        "plan_item_id": "SOL_202608170645_v0.3_SHORT",
+        "symbol": "SOL-USDT",
+        "side": "short",
+        "strategy_version": "v0.3",
+        "created_at_beijing": "2026-08-17 06:45:00+08:00",
+        "valid_until_beijing": "2026-08-17 10:45:00+08:00",
+        "review_time_beijing": "2026-08-17 07:15:00+08:00",
+        "entry_zone": [
+          "74.53",
+          "74.94"
+        ],
+        "entry_price": "74.52",
+        "take_profit": "73.41",
+        "stop_loss": "75.56",
+        "logic_tags": [
+          "15m_supertrend_short",
+          "30m_supertrend_short",
+          "1h_supertrend_short",
+          "15m_close_below_ma50",
+          "pivot_resistance_entry",
+          "pivot_support_take_profit",
+          "single_take_profit"
+        ],
+        "window_candle_count": 2,
+        "window_start": "2026-08-17 06:45:00+08:00",
+        "window_end": "2026-08-17 07:15:00+08:00",
+        "window_high": "74.61000000",
+        "window_low": "74.34000000",
+        "window_final_close": "74.47000000",
+        "was_triggered": true,
+        "entry_time": "2026-08-17 07:00:00+08:00",
+        "exit_time": "",
+        "exit_price": "",
+        "result": "active_entered_waiting_exit",
+        "is_terminal": false,
+        "floating_pnl_pct": "+0.067%",
+        "floating_r_multiple": "0.048",
+        "max_favorable_price": "74.47000000",
+        "max_adverse_price": "74.61000000",
+        "notes": "交易指令已成交，但尚未触发止盈或止损，且仍在4小时有效期内，继续跟踪。"
+      }
+    ]
+  },
+  {
+    "plan_id": "SOL_202608170715_v0.3",
+    "symbol": "SOL-USDT",
+    "file_symbol": "SOL",
+    "strategy_version": "v0.3",
+    "created_at_beijing": "2026-08-17 07:15:00+08:00",
+    "valid_until_beijing": "2026-08-17 11:15:00+08:00",
+    "execution_interval_minutes": 30,
+    "cycle_hours": 4,
+    "take_profit_mode": "single",
+    "long_short_independent": true,
+    "review_timeframe": "15m",
+    "reviewed": false,
+    "market_bias": "多周期共振偏空，空头计划优先；多头只在极端支撑区作为反弹计划。",
+    "data_snapshot": {
+      "15m_file": "SOL_15m_202608020715_202608170700.csv",
+      "30m_file": "SOL_30m_202607180700_202608170630.csv",
+      "1h_file": "SOL_1h_202606180700_202608170600.csv",
+      "15m_last_start": "2026-08-17 07:00:00+08:00",
+      "15m_last_close": "2026-08-17 07:15:00+08:00",
+      "30m_last_start": "2026-08-17 06:30:00+08:00",
+      "30m_last_close": "2026-08-17 07:00:00+08:00",
+      "1h_last_start": "2026-08-17 06:00:00+08:00",
+      "1h_last_close": "2026-08-17 07:00:00+08:00"
+    },
+    "adaptive_parameters_used": {
+      "long_entry_aggressiveness": "0.950",
+      "short_entry_aggressiveness": "1.050",
+      "long_take_profit_factor": "0.950",
+      "short_take_profit_factor": "1.000",
+      "stop_loss_atr_factor": "1.050"
+    },
+    "plans": [
+      {
+        "plan_item_id": "SOL_202608170715_v0.3_LONG",
+        "side": "long",
+        "entry_zone": [
+          "74.34",
+          "74.42"
+        ],
+        "entry_price": "74.35",
+        "take_profit": "75.55",
+        "stop_loss": "74.06",
+        "status": "pending",
+        "logic_tags": [
+          "15m_supertrend_short",
+          "30m_supertrend_short",
+          "1h_supertrend_short",
+          "15m_close_below_ma50",
+          "pivot_support_entry",
+          "ma50_long_avg_deviation_take_profit",
+          "single_take_profit"
+        ],
+        "risk_reward": "4.138",
+        "take_profit_basis": "base_target",
+        "rationale": "30m/1H 结构仍偏多，等待价格回踩 15m/30m S1 与 1H PP 共振支撑；止盈优先使用 15m MA50 多头平均偏离值，若盈亏比不足则顺延至上方关键压力位。"
+      },
+      {
+        "plan_item_id": "SOL_202608170715_v0.3_SHORT",
+        "side": "short",
+        "entry_zone": [
+          "74.63",
+          "74.68"
+        ],
+        "entry_price": "74.63",
+        "take_profit": "74.42",
+        "stop_loss": "74.87",
+        "status": "pending",
+        "logic_tags": [
+          "15m_supertrend_short",
+          "30m_supertrend_short",
+          "1h_supertrend_short",
+          "15m_close_below_ma50",
+          "pivot_resistance_entry",
+          "pivot_support_take_profit",
+          "single_take_profit"
+        ],
+        "risk_reward": "0.875",
+        "take_profit_basis": "base_target",
         "rationale": "若价格反弹至 15m/30m R2 与 1H R1 压力区失败，则执行独立空头计划；当多周期偏多时，空头仅作为压力区短线回落计划。止盈优先取最近共振支撑，若盈亏比不足则顺延至下方关键支撑位。"
       }
     ]
