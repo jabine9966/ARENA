@@ -1,141 +1,5 @@
 [
   {
-    "plan_id": "SOL_202608181845_v0.3",
-    "symbol": "SOL-USDT",
-    "file_symbol": "SOL",
-    "strategy_version": "v0.3",
-    "created_at_beijing": "2026-08-18 18:45:00+08:00",
-    "valid_until_beijing": "2026-08-18 22:45:00+08:00",
-    "execution_interval_minutes": 30,
-    "cycle_hours": 4,
-    "take_profit_mode": "single",
-    "long_short_independent": true,
-    "review_timeframe": "15m",
-    "reviewed": false,
-    "market_bias": "多周期共振偏多，优先寻找回踩做多机会，空头仅作为压力区短线计划。",
-    "data_snapshot": {
-      "15m_file": "SOL_15m_202608031845_202608181830.csv",
-      "30m_file": "SOL_30m_202607191830_202608181800.csv",
-      "1h_file": "SOL_1h_202606191800_202608181700.csv",
-      "15m_last_start": "2026-08-18 18:30:00+08:00",
-      "15m_last_close": "2026-08-18 18:45:00+08:00",
-      "30m_last_start": "2026-08-18 18:00:00+08:00",
-      "30m_last_close": "2026-08-18 18:30:00+08:00",
-      "1h_last_start": "2026-08-18 17:00:00+08:00",
-      "1h_last_close": "2026-08-18 18:00:00+08:00"
-    },
-    "adaptive_parameters_used": {
-      "long_entry_aggressiveness": "1.000",
-      "short_entry_aggressiveness": "1.000",
-      "long_take_profit_factor": "1.000",
-      "short_take_profit_factor": "1.000",
-      "stop_loss_atr_factor": "1.000"
-    },
-    "plans": [
-      {
-        "plan_item_id": "SOL_202608181845_v0.3_LONG",
-        "side": "long",
-        "entry_zone": [
-          "75.76",
-          "76.01"
-        ],
-        "entry_price": "75.78",
-        "take_profit": "76.17",
-        "stop_loss": "75.46",
-        "status": "pending",
-        "logic_tags": [
-          "15m_supertrend_long",
-          "30m_supertrend_long",
-          "1h_supertrend_long",
-          "15m_close_above_ma50",
-          "pivot_support_entry",
-          "ma50_long_avg_deviation_take_profit",
-          "single_take_profit"
-        ],
-        "risk_reward": "1.219",
-        "take_profit_basis": "base_target",
-        "rationale": "30m/1H 结构仍偏多，等待价格回踩 15m/30m S1 与 1H PP 共振支撑；止盈优先使用 15m MA50 多头平均偏离值，若盈亏比不足则顺延至上方关键压力位。"
-      },
-      {
-        "plan_item_id": "SOL_202608181845_v0.3_SHORT",
-        "side": "short",
-        "entry_zone": [
-          "75.94",
-          "76.11"
-        ],
-        "entry_price": "75.94",
-        "take_profit": "75.58",
-        "stop_loss": "76.29",
-        "status": "pending",
-        "logic_tags": [
-          "15m_supertrend_long",
-          "30m_supertrend_long",
-          "1h_supertrend_long",
-          "15m_close_above_ma50",
-          "pivot_resistance_entry",
-          "pivot_support_take_profit",
-          "single_take_profit"
-        ],
-        "risk_reward": "1.029",
-        "take_profit_basis": "risk_reward_adjusted_support",
-        "rationale": "若价格反弹至 15m/30m R2 与 1H R1 压力区失败，则执行独立空头计划；当多周期偏多时，空头仅作为压力区短线回落计划。止盈优先取最近共振支撑，若盈亏比不足则顺延至下方关键支撑位。"
-      }
-    ],
-    "completed_item_ids": [
-      "SOL_202608181845_v0.3_SHORT"
-    ],
-    "last_tracked_at_beijing": "2026-08-18 22:30:00+08:00",
-    "last_active_results": [
-      {
-        "review_id": "review_SOL_202608181845_v0.3_LONG_202608182245",
-        "plan_id": "SOL_202608181845_v0.3",
-        "plan_item_id": "SOL_202608181845_v0.3_LONG",
-        "symbol": "SOL-USDT",
-        "side": "long",
-        "strategy_version": "v0.3",
-        "created_at_beijing": "2026-08-18 18:45:00+08:00",
-        "valid_until_beijing": "2026-08-18 22:45:00+08:00",
-        "review_time_beijing": "2026-08-18 22:30:00+08:00",
-        "entry_zone": [
-          "75.76",
-          "76.01"
-        ],
-        "entry_price": "75.78",
-        "take_profit": "76.17",
-        "stop_loss": "75.46",
-        "logic_tags": [
-          "15m_supertrend_long",
-          "30m_supertrend_long",
-          "1h_supertrend_long",
-          "15m_close_above_ma50",
-          "pivot_support_entry",
-          "ma50_long_avg_deviation_take_profit",
-          "single_take_profit"
-        ],
-        "window_candle_count": 15,
-        "window_start": "2026-08-18 18:45:00+08:00",
-        "window_end": "2026-08-18 22:30:00+08:00",
-        "window_high": "77.07000000",
-        "window_low": "75.82000000",
-        "window_final_close": "77.01000000",
-        "was_triggered": false,
-        "entry_time": "",
-        "exit_time": "",
-        "exit_price": "",
-        "result": "active_pending_entry",
-        "is_terminal": false,
-        "pnl_pct": "",
-        "r_multiple": "",
-        "nearest_price_to_entry": "75.82000000",
-        "distance_to_entry": "0.04000000",
-        "distance_to_entry_pct": "+0.053%",
-        "max_favorable_price": "77.07000000",
-        "max_adverse_price": "75.82000000",
-        "notes": "交易指令仍在4小时有效期内，当前尚未成交，继续挂单跟踪。"
-      }
-    ]
-  },
-  {
     "plan_id": "SOL_202608181915_v0.3",
     "symbol": "SOL-USDT",
     "file_symbol": "SOL",
@@ -218,7 +82,7 @@
       }
     ],
     "completed_item_ids": [],
-    "last_tracked_at_beijing": "2026-08-18 22:30:00+08:00",
+    "last_tracked_at_beijing": "2026-08-18 23:00:00+08:00",
     "last_active_results": [
       {
         "review_id": "review_SOL_202608181915_v0.3_LONG_202608182315",
@@ -229,7 +93,7 @@
         "strategy_version": "v0.3",
         "created_at_beijing": "2026-08-18 19:15:00+08:00",
         "valid_until_beijing": "2026-08-18 23:15:00+08:00",
-        "review_time_beijing": "2026-08-18 22:30:00+08:00",
+        "review_time_beijing": "2026-08-18 23:00:00+08:00",
         "entry_zone": [
           "75.81",
           "75.90"
@@ -246,12 +110,12 @@
           "ma50_long_avg_deviation_take_profit",
           "single_take_profit"
         ],
-        "window_candle_count": 13,
+        "window_candle_count": 15,
         "window_start": "2026-08-18 19:15:00+08:00",
-        "window_end": "2026-08-18 22:30:00+08:00",
-        "window_high": "77.07000000",
+        "window_end": "2026-08-18 23:00:00+08:00",
+        "window_high": "77.32000000",
         "window_low": "76.06000000",
-        "window_final_close": "77.01000000",
+        "window_final_close": "76.79000000",
         "was_triggered": false,
         "entry_time": "",
         "exit_time": "",
@@ -263,7 +127,7 @@
         "nearest_price_to_entry": "76.06000000",
         "distance_to_entry": "0.23000000",
         "distance_to_entry_pct": "+0.303%",
-        "max_favorable_price": "77.07000000",
+        "max_favorable_price": "77.32000000",
         "max_adverse_price": "76.06000000",
         "notes": "交易指令仍在4小时有效期内，当前尚未成交，继续挂单跟踪。"
       },
@@ -276,7 +140,7 @@
         "strategy_version": "v0.3",
         "created_at_beijing": "2026-08-18 19:15:00+08:00",
         "valid_until_beijing": "2026-08-18 23:15:00+08:00",
-        "review_time_beijing": "2026-08-18 22:30:00+08:00",
+        "review_time_beijing": "2026-08-18 23:00:00+08:00",
         "entry_zone": [
           "75.93",
           "76.23"
@@ -293,12 +157,12 @@
           "pivot_support_take_profit",
           "single_take_profit"
         ],
-        "window_candle_count": 13,
+        "window_candle_count": 15,
         "window_start": "2026-08-18 19:15:00+08:00",
-        "window_end": "2026-08-18 22:30:00+08:00",
-        "window_high": "77.07000000",
+        "window_end": "2026-08-18 23:00:00+08:00",
+        "window_high": "77.32000000",
         "window_low": "76.06000000",
-        "window_final_close": "77.01000000",
+        "window_final_close": "76.79000000",
         "was_triggered": false,
         "entry_time": "",
         "exit_time": "",
@@ -307,11 +171,11 @@
         "is_terminal": false,
         "pnl_pct": "",
         "r_multiple": "",
-        "nearest_price_to_entry": "77.07000000",
-        "distance_to_entry": "1.14000000",
-        "distance_to_entry_pct": "+1.501%",
+        "nearest_price_to_entry": "77.32000000",
+        "distance_to_entry": "1.39000000",
+        "distance_to_entry_pct": "+1.831%",
         "max_favorable_price": "76.06000000",
-        "max_adverse_price": "77.07000000",
+        "max_adverse_price": "77.32000000",
         "notes": "交易指令仍在4小时有效期内，当前尚未成交，继续挂单跟踪。"
       }
     ]
@@ -399,7 +263,7 @@
       }
     ],
     "completed_item_ids": [],
-    "last_tracked_at_beijing": "2026-08-18 22:30:00+08:00",
+    "last_tracked_at_beijing": "2026-08-18 23:00:00+08:00",
     "last_active_results": [
       {
         "review_id": "review_SOL_202608181945_v0.3_LONG_202608182345",
@@ -410,7 +274,7 @@
         "strategy_version": "v0.3",
         "created_at_beijing": "2026-08-18 19:45:00+08:00",
         "valid_until_beijing": "2026-08-18 23:45:00+08:00",
-        "review_time_beijing": "2026-08-18 22:30:00+08:00",
+        "review_time_beijing": "2026-08-18 23:00:00+08:00",
         "entry_zone": [
           "75.88",
           "76.26"
@@ -427,12 +291,12 @@
           "ma50_long_avg_deviation_take_profit",
           "single_take_profit"
         ],
-        "window_candle_count": 11,
+        "window_candle_count": 13,
         "window_start": "2026-08-18 19:45:00+08:00",
-        "window_end": "2026-08-18 22:30:00+08:00",
-        "window_high": "77.07000000",
+        "window_end": "2026-08-18 23:00:00+08:00",
+        "window_high": "77.32000000",
         "window_low": "76.06000000",
-        "window_final_close": "77.01000000",
+        "window_final_close": "76.79000000",
         "was_triggered": false,
         "entry_time": "",
         "exit_time": "",
@@ -444,7 +308,7 @@
         "nearest_price_to_entry": "76.06000000",
         "distance_to_entry": "0.16000000",
         "distance_to_entry_pct": "+0.211%",
-        "max_favorable_price": "77.07000000",
+        "max_favorable_price": "77.32000000",
         "max_adverse_price": "76.06000000",
         "notes": "交易指令仍在4小时有效期内，当前尚未成交，继续挂单跟踪。"
       },
@@ -457,7 +321,7 @@
         "strategy_version": "v0.3",
         "created_at_beijing": "2026-08-18 19:45:00+08:00",
         "valid_until_beijing": "2026-08-18 23:45:00+08:00",
-        "review_time_beijing": "2026-08-18 22:30:00+08:00",
+        "review_time_beijing": "2026-08-18 23:00:00+08:00",
         "entry_zone": [
           "75.95",
           "76.80"
@@ -474,12 +338,12 @@
           "pivot_support_take_profit",
           "single_take_profit"
         ],
-        "window_candle_count": 11,
+        "window_candle_count": 13,
         "window_start": "2026-08-18 19:45:00+08:00",
-        "window_end": "2026-08-18 22:30:00+08:00",
-        "window_high": "77.07000000",
+        "window_end": "2026-08-18 23:00:00+08:00",
+        "window_high": "77.32000000",
         "window_low": "76.06000000",
-        "window_final_close": "77.01000000",
+        "window_final_close": "76.79000000",
         "was_triggered": false,
         "entry_time": "",
         "exit_time": "",
@@ -488,11 +352,11 @@
         "is_terminal": false,
         "pnl_pct": "",
         "r_multiple": "",
-        "nearest_price_to_entry": "77.07000000",
-        "distance_to_entry": "1.10000000",
-        "distance_to_entry_pct": "+1.448%",
+        "nearest_price_to_entry": "77.32000000",
+        "distance_to_entry": "1.35000000",
+        "distance_to_entry_pct": "+1.777%",
         "max_favorable_price": "76.06000000",
-        "max_adverse_price": "77.07000000",
+        "max_adverse_price": "77.32000000",
         "notes": "交易指令仍在4小时有效期内，当前尚未成交，继续挂单跟踪。"
       }
     ]
@@ -576,6 +440,187 @@
         ],
         "risk_reward": "0.802",
         "take_profit_basis": "risk_reward_minimum_target",
+        "rationale": "若价格反弹至 15m/30m R2 与 1H R1 压力区失败，则执行独立空头计划；当多周期偏多时，空头仅作为压力区短线回落计划。止盈优先取最近共振支撑，若盈亏比不足则顺延至下方关键支撑位。"
+      }
+    ],
+    "completed_item_ids": [],
+    "last_tracked_at_beijing": "2026-08-18 23:00:00+08:00",
+    "last_active_results": [
+      {
+        "review_id": "review_SOL_202608182230_v0.3_LONG_202608190230",
+        "plan_id": "SOL_202608182230_v0.3",
+        "plan_item_id": "SOL_202608182230_v0.3_LONG",
+        "symbol": "SOL-USDT",
+        "side": "long",
+        "strategy_version": "v0.3",
+        "created_at_beijing": "2026-08-18 22:30:00+08:00",
+        "valid_until_beijing": "2026-08-19 02:30:00+08:00",
+        "review_time_beijing": "2026-08-18 23:00:00+08:00",
+        "entry_zone": [
+          "76.20",
+          "76.44"
+        ],
+        "entry_price": "76.22",
+        "take_profit": "77.33",
+        "stop_loss": "75.44",
+        "logic_tags": [
+          "15m_supertrend_long",
+          "30m_supertrend_long",
+          "1h_supertrend_long",
+          "15m_close_above_ma50",
+          "pivot_support_entry",
+          "ma50_long_avg_deviation_take_profit",
+          "single_take_profit"
+        ],
+        "window_candle_count": 2,
+        "window_start": "2026-08-18 22:30:00+08:00",
+        "window_end": "2026-08-18 23:00:00+08:00",
+        "window_high": "77.32000000",
+        "window_low": "76.77000000",
+        "window_final_close": "76.79000000",
+        "was_triggered": false,
+        "entry_time": "",
+        "exit_time": "",
+        "exit_price": "",
+        "result": "active_pending_entry",
+        "is_terminal": false,
+        "pnl_pct": "",
+        "r_multiple": "",
+        "nearest_price_to_entry": "76.77000000",
+        "distance_to_entry": "0.55000000",
+        "distance_to_entry_pct": "+0.722%",
+        "max_favorable_price": "77.32000000",
+        "max_adverse_price": "76.77000000",
+        "notes": "交易指令仍在4小时有效期内，当前尚未成交，继续挂单跟踪。"
+      },
+      {
+        "review_id": "review_SOL_202608182230_v0.3_SHORT_202608190230",
+        "plan_id": "SOL_202608182230_v0.3",
+        "plan_item_id": "SOL_202608182230_v0.3_SHORT",
+        "symbol": "SOL-USDT",
+        "side": "short",
+        "strategy_version": "v0.3",
+        "created_at_beijing": "2026-08-18 22:30:00+08:00",
+        "valid_until_beijing": "2026-08-19 02:30:00+08:00",
+        "review_time_beijing": "2026-08-18 23:00:00+08:00",
+        "entry_zone": [
+          "76.33",
+          "77.68"
+        ],
+        "entry_price": "76.37",
+        "take_profit": "74.83",
+        "stop_loss": "78.29",
+        "logic_tags": [
+          "15m_supertrend_long",
+          "30m_supertrend_long",
+          "1h_supertrend_long",
+          "15m_close_above_ma50",
+          "pivot_resistance_entry",
+          "pivot_support_take_profit",
+          "single_take_profit"
+        ],
+        "window_candle_count": 2,
+        "window_start": "2026-08-18 22:30:00+08:00",
+        "window_end": "2026-08-18 23:00:00+08:00",
+        "window_high": "77.32000000",
+        "window_low": "76.77000000",
+        "window_final_close": "76.79000000",
+        "was_triggered": false,
+        "entry_time": "",
+        "exit_time": "",
+        "exit_price": "",
+        "result": "active_pending_entry",
+        "is_terminal": false,
+        "pnl_pct": "",
+        "r_multiple": "",
+        "nearest_price_to_entry": "77.32000000",
+        "distance_to_entry": "0.95000000",
+        "distance_to_entry_pct": "+1.244%",
+        "max_favorable_price": "76.77000000",
+        "max_adverse_price": "77.32000000",
+        "notes": "交易指令仍在4小时有效期内，当前尚未成交，继续挂单跟踪。"
+      }
+    ]
+  },
+  {
+    "plan_id": "SOL_202608182300_v0.3",
+    "symbol": "SOL-USDT",
+    "file_symbol": "SOL",
+    "strategy_version": "v0.3",
+    "created_at_beijing": "2026-08-18 23:00:00+08:00",
+    "valid_until_beijing": "2026-08-19 03:00:00+08:00",
+    "execution_interval_minutes": 30,
+    "cycle_hours": 4,
+    "take_profit_mode": "single",
+    "long_short_independent": true,
+    "review_timeframe": "15m",
+    "reviewed": false,
+    "market_bias": "多周期共振偏多，优先寻找回踩做多机会，空头仅作为压力区短线计划。",
+    "data_snapshot": {
+      "15m_file": "SOL_15m_202608032300_202608182245.csv",
+      "30m_file": "SOL_30m_202607192300_202608182230.csv",
+      "1h_file": "SOL_1h_202606192300_202608182200.csv",
+      "15m_last_start": "2026-08-18 22:45:00+08:00",
+      "15m_last_close": "2026-08-18 23:00:00+08:00",
+      "30m_last_start": "2026-08-18 22:30:00+08:00",
+      "30m_last_close": "2026-08-18 23:00:00+08:00",
+      "1h_last_start": "2026-08-18 22:00:00+08:00",
+      "1h_last_close": "2026-08-18 23:00:00+08:00"
+    },
+    "adaptive_parameters_used": {
+      "long_entry_aggressiveness": "1.000",
+      "short_entry_aggressiveness": "0.950",
+      "long_take_profit_factor": "1.000",
+      "short_take_profit_factor": "1.000",
+      "stop_loss_atr_factor": "1.050"
+    },
+    "plans": [
+      {
+        "plan_item_id": "SOL_202608182300_v0.3_LONG",
+        "side": "long",
+        "entry_zone": [
+          "76.60",
+          "76.75"
+        ],
+        "entry_price": "76.62",
+        "take_profit": "77.70",
+        "stop_loss": "75.50",
+        "status": "pending",
+        "logic_tags": [
+          "15m_supertrend_long",
+          "30m_supertrend_long",
+          "1h_supertrend_long",
+          "15m_close_above_ma50",
+          "pivot_support_entry",
+          "ma50_long_avg_deviation_take_profit",
+          "single_take_profit"
+        ],
+        "risk_reward": "0.964",
+        "take_profit_basis": "risk_reward_adjusted_resistance",
+        "rationale": "30m/1H 结构仍偏多，等待价格回踩 15m/30m S1 与 1H PP 共振支撑；止盈优先使用 15m MA50 多头平均偏离值，若盈亏比不足则顺延至上方关键压力位。"
+      },
+      {
+        "plan_item_id": "SOL_202608182300_v0.3_SHORT",
+        "side": "short",
+        "entry_zone": [
+          "77.03",
+          "77.51"
+        ],
+        "entry_price": "77.04",
+        "take_profit": "76.17",
+        "stop_loss": "77.95",
+        "status": "pending",
+        "logic_tags": [
+          "15m_supertrend_long",
+          "30m_supertrend_long",
+          "1h_supertrend_long",
+          "15m_close_above_ma50",
+          "pivot_resistance_entry",
+          "pivot_support_take_profit",
+          "single_take_profit"
+        ],
+        "risk_reward": "0.956",
+        "take_profit_basis": "risk_reward_adjusted_support",
         "rationale": "若价格反弹至 15m/30m R2 与 1H R1 压力区失败，则执行独立空头计划；当多周期偏多时，空头仅作为压力区短线回落计划。止盈优先取最近共振支撑，若盈亏比不足则顺延至下方关键支撑位。"
       }
     ]
