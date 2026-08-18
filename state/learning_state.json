@@ -3,8 +3,8 @@
   "cycle_hours": 4,
   "take_profit_mode": "single",
   "long_short_independent": true,
-  "last_updated_beijing": "2026-08-18 13:29:51+08:00",
-  "review_sample_size": 619,
+  "last_updated_beijing": "2026-08-18 13:55:14+08:00",
+  "review_sample_size": 620,
   "performance": {
     "long": {
       "total_plans": 309,
@@ -30,10 +30,10 @@
       "ambiguous_rate": "0.0000"
     },
     "short": {
-      "total_plans": 310,
-      "triggered": 239,
+      "total_plans": 311,
+      "triggered": 240,
       "not_triggered": 71,
-      "entered_take_profit": 90,
+      "entered_take_profit": 91,
       "entered_stop_loss": 81,
       "entered_expired_profit": 33,
       "entered_expired_loss": 30,
@@ -45,11 +45,11 @@
       "not_triggered_mixed_outcome": 0,
       "no_market_data": 0,
       "no_market_data_expired": 0,
-      "trigger_rate": "0.7710",
-      "take_profit_rate_on_triggered": "0.3766",
-      "stop_loss_rate_on_triggered": "0.3389",
-      "missed_profit_rate": "0.1935",
-      "expired_profit_rate_on_triggered": "0.1381",
+      "trigger_rate": "0.7717",
+      "take_profit_rate_on_triggered": "0.3792",
+      "stop_loss_rate_on_triggered": "0.3375",
+      "missed_profit_rate": "0.1929",
+      "expired_profit_rate_on_triggered": "0.1375",
       "ambiguous_rate": "0.0000"
     }
   },
@@ -63,5 +63,5 @@
   "recent_lessons": [
     "暂无足够复盘证据触发参数调整，保持当前默认策略参数。"
   ],
-  "last_review_id": "review_SOL_202608181130_v0.3_SHORT_202608181530"
+  "last_review_id": "review_SOL_202608181315_v0.3_SHORT_202608181715"
 }
