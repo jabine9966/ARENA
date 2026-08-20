@@ -3,8 +3,8 @@
   "cycle_hours": 4,
   "take_profit_mode": "single",
   "long_short_independent": true,
-  "last_updated_beijing": "2026-08-21 05:54:13+08:00",
-  "review_sample_size": 800,
+  "last_updated_beijing": "2026-08-21 06:28:01+08:00",
+  "review_sample_size": 803,
   "performance": {
     "long": {
       "total_plans": 400,
@@ -30,10 +30,10 @@
       "ambiguous_rate": "0.0000"
     },
     "short": {
-      "total_plans": 400,
-      "triggered": 315,
+      "total_plans": 403,
+      "triggered": 318,
       "not_triggered": 85,
-      "entered_take_profit": 112,
+      "entered_take_profit": 115,
       "entered_stop_loss": 112,
       "entered_expired_profit": 40,
       "entered_expired_loss": 44,
@@ -45,11 +45,11 @@
       "not_triggered_mixed_outcome": 0,
       "no_market_data": 0,
       "no_market_data_expired": 0,
-      "trigger_rate": "0.7875",
-      "take_profit_rate_on_triggered": "0.3556",
-      "stop_loss_rate_on_triggered": "0.3556",
-      "missed_profit_rate": "0.1650",
-      "expired_profit_rate_on_triggered": "0.1270",
+      "trigger_rate": "0.7891",
+      "take_profit_rate_on_triggered": "0.3616",
+      "stop_loss_rate_on_triggered": "0.3522",
+      "missed_profit_rate": "0.1638",
+      "expired_profit_rate_on_triggered": "0.1258",
       "ambiguous_rate": "0.0050"
     }
   },
@@ -63,5 +63,5 @@
   "recent_lessons": [
     "最近 20 条已成交 long 计划中周期结束浮盈但未止盈比例偏高，说明止盈可能偏远，下一轮适度收近止盈。"
   ],
-  "last_review_id": "review_SOL_202608210145_v0.3_LONG_202608210545"
+  "last_review_id": "review_SOL_202608210515_v0.3_SHORT_202608210915"
 }
