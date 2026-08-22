@@ -3,17 +3,17 @@
   "cycle_hours": 4,
   "take_profit_mode": "single",
   "long_short_independent": true,
-  "last_updated_beijing": "2026-08-22 16:30:17+08:00",
-  "review_sample_size": 898,
+  "last_updated_beijing": "2026-08-22 16:57:24+08:00",
+  "review_sample_size": 899,
   "performance": {
     "long": {
-      "total_plans": 448,
-      "triggered": 320,
+      "total_plans": 449,
+      "triggered": 321,
       "not_triggered": 128,
       "entered_take_profit": 50,
       "entered_stop_loss": 82,
       "entered_expired_profit": 122,
-      "entered_expired_loss": 58,
+      "entered_expired_loss": 59,
       "entered_expired_flat": 8,
       "ambiguous_same_candle": 0,
       "not_triggered_missed_profit": 50,
@@ -22,11 +22,11 @@
       "not_triggered_mixed_outcome": 0,
       "no_market_data": 0,
       "no_market_data_expired": 0,
-      "trigger_rate": "0.7143",
-      "take_profit_rate_on_triggered": "0.1563",
-      "stop_loss_rate_on_triggered": "0.2563",
-      "missed_profit_rate": "0.1116",
-      "expired_profit_rate_on_triggered": "0.3813",
+      "trigger_rate": "0.7149",
+      "take_profit_rate_on_triggered": "0.1558",
+      "stop_loss_rate_on_triggered": "0.2555",
+      "missed_profit_rate": "0.1114",
+      "expired_profit_rate_on_triggered": "0.3801",
       "ambiguous_rate": "0.0000"
     },
     "short": {
@@ -61,8 +61,8 @@
     "stop_loss_atr_factor": "1.000"
   },
   "recent_lessons": [
-    "最近 23 条已成交 long 计划中周期结束浮盈但未止盈比例偏高，说明止盈可能偏远，下一轮适度收近止盈。",
+    "最近 24 条已成交 long 计划中周期结束浮盈但未止盈比例偏高，说明止盈可能偏远，下一轮适度收近止盈。",
     "最近 25 条已成交 short 计划中 stop_loss 比例为 40.00%，说明入场或方向过滤偏激进，下一轮适度降低入场积极性。"
   ],
-  "last_review_id": "review_SOL_202608221530_v0.3_SHORT_202608221930"
+  "last_review_id": "review_SOL_202608221245_v0.3_LONG_202608221645"
 }
